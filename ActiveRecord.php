@@ -5,7 +5,7 @@ if (!defined('PHP_VERSION_ID') || PHP_VERSION_ID < 50300)
 define('PHP_ACTIVERECORD_VERSION_ID','1.0');
 
 if (!defined('PHP_ACTIVERECORD_AUTOLOAD_PREPEND'))
-	define('PHP_ACTIVERECORD_AUTOLOAD_PREPEND',true);
+	define('PHP_ACTIVERECORD_AUTOLOAD_PREPEND',false);
 
 require __DIR__.'/lib/Singleton.php';
 require __DIR__.'/lib/Config.php';
